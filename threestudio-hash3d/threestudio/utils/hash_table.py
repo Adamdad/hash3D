@@ -95,39 +95,6 @@ class GridBasedHashTable:
         aggregated_output = torch.sum(features * weights, dim=0)
         return aggregated_output
     
-
-class GridBasedHashTable_Key(GridBasedHashTable):
-    def query(self, key, meta_key):
-        """
-        Queries the hash table for a given key and meta key, returns the aggregated output.
-
-        Args:
-            key (torch.Tensor): Key tensor of the form [c1, c2, c3, t].
-            meta_key (torch.Tensor): Meta key tensor for query.
-
-        Returns:
-            torch.Tensor or None: The aggregated output if available, otherwise None.
-        """
-        idx = self.compute_hash_index(key)
-        queue = self.hash_table[idx]
-
-        if len(queue) == 0:
-            return None
-
-        keys, features = zip(*queue)
-        keys_tensor = torch.stack(keys).float()
-        key_float = key.float().unsqueeze(0)
-        
-        distances = torch.norm(keys_tensor[:, :3] - key_float[:, :3], dim=1)
-        closest_idx = torch.argmin(distances)
-        return features[closest_idx]
-        # weights = F.softmax(-distances, dim=0)
-        # weights = weights.view(-1, 1, 1, 1, 1)
-        # features = torch.stack(features)
-
-        # aggregated_output = torch.sum(features * weights, dim=0)
-        # return aggregated_output
-    
 class GridBasedHashTable_Sim(GridBasedHashTable):
     
     def append(self, key, meta_key, feature):

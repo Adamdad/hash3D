@@ -1,0 +1,67 @@
+name: "gaussiandreamer-sd"
+tag: "${rmspace:${system.prompt_processor.prompt},_}"
+exp_root_dir: "outputs"
+seed: 0
+ 
+data_type: "random-camera-datamodule"
+data:
+  load_type: ${system.load_type}
+  batch_size: 4
+  eval_camera_distance: 4.0
+  camera_distance_range: [1.5, 4.0]
+  light_sample_strategy: "dreamfusion3dgs"
+  height: 1024
+  width: 1024
+  eval_height: 1024
+  eval_width: 1024
+  # elevation_range: [-10 , 80]
+system_type: "gaussiandreamer-system"
+system:
+  load_type: 0 # 0: load from shape, 1: load from smpl
+  load_path: "./load/shapes/stand.obj" # only used when load_type == 1
+  radius: ${data.eval_camera_distance}
+  sh_degree: 0
+  prompt_processor_type: "stable-diffusion-prompt-processor"
+  prompt_processor:
+    pretrained_model_name_or_path: "stabilityai/stable-diffusion-2-1-base"
+    prompt: ???
+    negative_prompt: "ugly, bad anatomy, blurry, pixelated obscure, unnatural colors, poor lighting, dull, and unclear, cropped, lowres, low quality, artifacts, duplicate, morbid, mutilated, poorly drawn face, deformed, dehydrated, bad proportions, unfocused"
+
+  guidance_type: "stable-diffusion-guidance"
+  guidance:
+    pretrained_model_name_or_path: "stabilityai/stable-diffusion-2-1-base"
+    guidance_scale: 100.
+    weighting_strategy: sds
+    min_step_percent: 0.02
+    max_step_percent: 0.98
+    grad_clip: [0,1.5,2.0,1000]
+
+  loggers:
+    wandb:
+      enable: false
+      project: 'threestudio'
+      name: None
+
+  loss:
+    lambda_sds: 1.
+    lambda_sparsity: 1.
+    lambda_opaque: 0.0
+  optimizer:
+    name: Adam
+    args:
+      lr: 0.001
+      betas: [0.9, 0.99]
+      eps: 1.e-15
+
+trainer:
+  max_steps: 1200
+  log_every_n_steps: 1
+  num_sanity_val_steps: 0
+  val_check_interval: 100
+  enable_progress_bar: true
+  precision: 16-mixed
+
+checkpoint:
+  save_last: true # save at each validation time
+  save_top_k: -1
+  every_n_train_steps: ${trainer.max_steps}
