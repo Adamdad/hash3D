@@ -1,4 +1,5 @@
-# Hash3D: Training-free Acceleration for 3D Generation 🏎️💨
+<h1 style="text-align: center;">Hash3D: Training-free Acceleration <br> for 3D Generation 🏎️💨</h1>
+
 
 ## Introduction
 This repository contains the offical implementation for our paper
@@ -7,13 +8,17 @@ Hash3D: Training-free Acceleration for 3D Generation
 
 [[project page](https://adamdad.github.io/hash3D/)] [[paper]()] [[code](https://github.com/Adamdad/hash3D)]
 
+![pipeline](assets/pipeline.jpg)
+
 
 > We present, Hash3D, a universal solution to acclerate score distillation samplin (SDS) based 3D generation. By effectively hashing and reusing these feature maps across neighboring timesteps and camera angles, Hash3D substantially prevents redundant calculations, thus accelerating the diffusion model's inference in 3D generation tasks.
 
 **What we offer**: 
-- ⭐ Compatiable to any 3D generation method using SDS.
+- ⭐ Compatiable to Any 3D generation method using SDS.
 - ⭐ Inplace Accerlation for 1.3X - 4X. 
 - ⭐ Training-Free.
+
+
 
 ## Project Structure
 The repository is organized into three main directories, each catering to a different repo that Hash3D can be applied on:
@@ -55,7 +60,7 @@ python eval_clip_sim.py "$gt_prompt" $pred_dir --mode text
 ## Acknowledgement
 
 We borrow part of the code from [DeepCache](https://github.com/horseee/DeepCache) for feature extraction from diffusion models. 
-We also thanks the implementation from [threestudio](https://github.com/threestudio-project/threestudio), [DreamGaussian](https://github.com/dreamgaussian/dreamgaussian), [Gaussian-Dreamer](https://github.com/hustvl/GaussianDreamer), and the valuable disscussion from [@FlorinShum](https://github.com/FlorinShum).
+We also thanks the implementation from [threestudio](https://github.com/threestudio-project/threestudio), [DreamGaussian](https://github.com/dreamgaussian/dreamgaussian), [Gaussian-Dreamer](https://github.com/hustvl/GaussianDreamer), and the valuable disscussion with [@FlorinShum](https://github.com/FlorinShum) and [@Horseee](https://github.com/horseee).
 
 ## Citation
 
