@@ -1,4 +1,10 @@
-<h1 style="text-align: center;">Hash3D: Training-free Acceleration <br> for 3D Generation 🏎️💨</h1>
+
+<br>
+<div align="center">
+<img src="assets/logo.jpg" width="400px"></img>
+
+<h3>Training-free Acceleration <br> for 3D Generation 🏎️💨<h3>
+</div>
 
 
 ## Introduction
