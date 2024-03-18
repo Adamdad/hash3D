@@ -55,8 +55,9 @@ python eval_clip_sim.py "$gt_prompt" $pred_dir --mode text
 ## Acknowledgement
 
 We borrow part of the code from [DeepCache](https://github.com/horseee/DeepCache) for feature extraction from diffusion models. 
+We also thanks the implementation from [threestudio](https://github.com/threestudio-project/threestudio), [DreamGaussian](https://github.com/dreamgaussian/dreamgaussian), [Gaussian-Dreamer](https://github.com/hustvl/GaussianDreamer), and the valuable disscussion from [@FlorinShum](https://github.com/FlorinShum).
 
-## Bibtex
+## Citation
 
 ```bibtex
 @article{yang2024hash3d,
