@@ -12,7 +12,8 @@ Hash3D: Training-free Acceleration for 3D Generation
 
 **What we offer**: 
 - ⭐ Compatiable to any 3D generation method using SDS.
-- ⭐ Inplace Accerlation for Free. 
+- ⭐ Inplace Accerlation. 
+- ⭐ Training-Free.
 
 ## Project Structure
 The repository is organized into three main directories, each catering to a different repo that Hash3D can be applied on:
