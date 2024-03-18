@@ -8,7 +8,7 @@ Hash3D: Training-free Acceleration for 3D Generation
 [[project page](https://adamdad.github.io/hash3D/)] [[paper]()] [[code](https://github.com/Adamdad/hash3D)]
 
 
-    We present, Hash3D, a universal solution to acclerate score distillation sampling~(SDS) based 3D generation. By effectively hashing and reusing these feature maps across neighboring timesteps and camera angles, Hash3D substantially prevents redundant calculations, thus accelerating the diffusion model's inference in 3D generation tasks.
+> We present, Hash3D, a universal solution to acclerate score distillation sampling~(SDS) based 3D generation. By effectively hashing and reusing these feature maps across neighboring timesteps and camera angles, Hash3D substantially prevents redundant calculations, thus accelerating the diffusion model's inference in 3D generation tasks.
 
 **What we offer**: 
 - ⭐ Compatiable to any 3D generation method using SDS.
