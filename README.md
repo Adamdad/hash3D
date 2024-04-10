@@ -62,7 +62,7 @@ Hash3D: Training-free Acceleration for 3D Generation
               </video></td>
             </tr>
           </table>
-          <table>
+          <!-- <table>
             <tr>
               <th>Input Image</th>
               <th>DreamGaussian</th>
@@ -106,7 +106,7 @@ Hash3D: Training-free Acceleration for 3D Generation
                 </video>
               </td>
             </tr>
-          </table>
+          </table> -->
         </div>
       </div>
     </div>
