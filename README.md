@@ -58,7 +58,8 @@ https://github.com/Adamdad/hash3D/assets/26020510/c02701f1-fd92-4601-8569-18c7c1
             <tr>
               <td>
 
-  ![baby_phoenix_on_ice (1)](https://github.com/Adamdad/hash3D/assets/26020510/0148a4c7-bd07-4121-898b-c444829bc5ef) 
+  ![grootplant_rgba (1)](https://github.com/Adamdad/hash3D/assets/26020510/93ee8db8-0d49-4324-9fb3-c5941579da84)
+
 
   </td>
               <td>
