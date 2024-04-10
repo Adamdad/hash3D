@@ -37,7 +37,7 @@ Hash3D: Training-free Acceleration for 3D Generation
             <tr>
               <th>Input Image</th>
               <th>Zero-1-to-3</th>
-              <th>Hash3D + Zero-1-to-3<span style="color:red">(Speed X3.3)</span></th>
+              <th>Hash3D + Zero-1-to-3 $${\color{red} \text{(Speed X4.0)}}$$ </th>
             </tr>
             <tr>
               <td><img src="https://adamdad.github.io/hash3D/static/images/baby_phoenix_on_ice.png"></td>
@@ -81,33 +81,33 @@ https://github.com/Adamdad/hash3D/assets/26020510/86d9e46d-0554-4a87-9960-ce3a9f
             <tr>
               <th>Prompt</th>
               <th>Gaussian-Dreamer</th>
-              <th>Hash3D + Gaussian-Dreamer <br> <span class="speed-highlight">(Speed X1.5)</span></th>
+              <th>Hash3D + Gaussian-Dreamer $${\color{red}\text{(Speed X1.5)}}$$ </th>
             </tr>
             <tr>
               <td style="text-align: center; vertical-align: middle; font-size:18px; font-family:Comic sans MS">A bear dressed as a lumberjack</td>
               <td>
-                <video style="max-height: 250px; max-width: 250px;" poster="" autoplay muted loop playsinline>
-                  <source src="./static/videos/gaussiandreamer/a bear dressed as a lumberjack.mp4" type="video/mp4">
-                </video>
-              </td>
+
+https://github.com/Adamdad/hash3D/assets/26020510/80a4658f-7233-49aa-a357-ff296396185b
+
+</td>
               <td>
-                <video style="max-height: 250px; max-width: 250px;" poster="" autoplay muted loop playsinline>
-                  <source src="./static/videos/gaussiandreamer_hash3d/a bear dressed as a lumberjack.mp4" type="video/mp4">
-                </video>
-              </td>
+
+https://github.com/Adamdad/hash3D/assets/26020510/3882341f-c5f1-4f4f-8f24-d1c080ecdb2f
+
+</td>
             </tr>
             <tr>
               <td style="text-align: center; vertical-align: middle; font-size:18px; font-family:Comic sans MS">A train engine made out of clay</td>
               <td>
-                <video style="max-height: 250px; max-width: 250px;" poster="" autoplay muted loop playsinline>
-                  <source src="./static/videos/gaussiandreamer/a train engine made out of clay.mp4" type="video/mp4">
-                </video>
-              </td>
+
+https://github.com/Adamdad/hash3D/assets/26020510/1111d8ba-aae5-4117-9340-5d950702e49b
+
+</td>
               <td>
-                <video  style="max-height: 250px; max-width: 250px;" poster="" autoplay muted loop playsinline>
-                  <source src="./static/videos/gaussiandreamer_hash3d/a train engine made out of clay.mp4" type="video/mp4">
-                </video>
-              </td>
+
+https://github.com/Adamdad/hash3D/assets/26020510/06b7bbf3-0edb-4d2f-a2f2-c11bab5c7b64
+
+</td>
             </tr>
           </table>
         </div>
