@@ -70,8 +70,12 @@ We also thanks the implementation from [threestudio](https://github.com/threestu
 ## Citation
 
 ```bibtex
-@article{yang2024hash3d,
-  author    = {Xingyi Yang, Xinchao Wang},
-  title     = {Hash3D: Accelerate 3D Generative Model for Free}
+@misc{yang2024hash3d,
+      title={Hash3D: Training-free Acceleration for 3D Generation}, 
+      author={Xingyi Yang and Xinchao Wang},
+      year={2024},
+      eprint={2404.06091},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
 }
 ```
