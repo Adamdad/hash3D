@@ -40,7 +40,7 @@ Hash3D: Training-free Acceleration for 3D Generation
               <th>Hash3D + Zero-1-to-3 $${\color{red} \text{(Speed X4.0)}}$$ </th>
             </tr>
             <tr>
-              <td><img src="assets/baby_phoenix_on_ice.png"></td>
+              <td><img src="assets/baby_phoenix_on_ice.png"></img></td>
               <td>
 
 https://github.com/Adamdad/hash3D/assets/26020510/797d78f0-d2d7-43a3-94af-bf57c9c5ef70
@@ -53,7 +53,7 @@ https://github.com/Adamdad/hash3D/assets/26020510/c02701f1-fd92-4601-8569-18c7c1
 </td>
             </tr>
             <tr>
-              <td><img src="assets/grootplant_rgba.png"></td>
+              <td><img src="assets/grootplant_rgba.png"></img></td>
               <td>
 
 https://github.com/Adamdad/hash3D/assets/26020510/a41ba688-40bf-4d95-95de-37b669a90887
