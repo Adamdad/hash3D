@@ -40,26 +40,30 @@ Hash3D: Training-free Acceleration for 3D Generation
               <th>Hash3D + Zero-1-to-3<span style="color:red">(Speed X3.3)</span></th>
             </tr>
             <tr>
-              <td><img style="max-height: 160px;max-width: 160px;" src="https://adamdad.github.io/hash3D/static/images/baby_phoenix_on_ice.png"></td>
-              <td><video poster="" id="steve" autoplay controls muted loop playsinline height="10%">
-                <source style="max-height: 160px;max-width: 160px;" src="assets/phoenix_zero123.mp4"
-                        type="video/mp4">
-              </video></td>
-              <td><video poster="" id="steve" autoplay controls muted loop playsinline height="10%">
-                <source src="assets/phoenix_hash_zero123.mp4"
-                        type="video/mp4">
-              </video></td>
+              <td><img src="https://adamdad.github.io/hash3D/static/images/baby_phoenix_on_ice.png"></td>
+              <td>
+
+https://github.com/Adamdad/hash3D/assets/26020510/797d78f0-d2d7-43a3-94af-bf57c9c5ef70
+
+</td>
+              <td>
+
+https://github.com/Adamdad/hash3D/assets/26020510/c02701f1-fd92-4601-8569-18c7c17cde97
+
+</td>
             </tr>
             <tr>
               <td><img src="https://adamdad.github.io/hash3D/static/images/grootplant_rgba.png"></td>
-              <td><video poster="" id="steve" autoplay controls muted loop playsinline height="10%">
-                <source src="https://adamdad.github.io/hash3D/static/videos/grootplant_zero123.mp4"
-                        type="video/mp4">
-              </video></td>
-              <td><video poster="" id="steve" autoplay controls muted loop playsinline height="10%">
-                <source src="https://adamdad.github.io/hash3D/static/videos/grootplant_hash_zero123.mp4"
-                        type="video/mp4">
-              </video></td>
+              <td>
+
+https://github.com/Adamdad/hash3D/assets/26020510/a41ba688-40bf-4d95-95de-37b669a90887
+
+</td>
+              <td>
+
+https://github.com/Adamdad/hash3D/assets/26020510/86d9e46d-0554-4a87-9960-ce3a9f83bdd7
+
+</td>
             </tr>
           </table>
         </div>
