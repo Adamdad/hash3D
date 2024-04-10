@@ -42,11 +42,11 @@ Hash3D: Training-free Acceleration for 3D Generation
             <tr>
               <td><img style="max-height: 160px;max-width: 160px;" src="https://adamdad.github.io/hash3D/static/images/baby_phoenix_on_ice.png"></td>
               <td><video poster="" id="steve" autoplay controls muted loop playsinline height="10%">
-                <source style="max-height: 160px;max-width: 160px;" src="https://adamdad.github.io/hash3D/static/videos/phoenix_zero123.mp4"
+                <source style="max-height: 160px;max-width: 160px;" src="assets/phoenix_zero123.mp4"
                         type="video/mp4">
               </video></td>
               <td><video poster="" id="steve" autoplay controls muted loop playsinline height="10%">
-                <source src="https://adamdad.github.io/hash3D/static/videos/phoenix_hash_zero123.mp4"
+                <source src="assets/phoenix_hash_zero123.mp4"
                         type="video/mp4">
               </video></td>
             </tr>
@@ -62,51 +62,6 @@ Hash3D: Training-free Acceleration for 3D Generation
               </video></td>
             </tr>
           </table>
-          <!-- <table>
-            <tr>
-              <th>Input Image</th>
-              <th>DreamGaussian</th>
-              <th>Hash3D + DreamGaussian <span style="color:red">(Speed X4.0)</span></th>
-            </tr>
-            <tr>
-              <td><img style="max-height: 160px;max-width: 160px;" src="https://adamdad.github.io/hash3D/static/images/sofa.png" alt="Sofa"></td>
-              <td>
-                <video style="max-height: 160px;max-width: 160px;" poster="" autoplay muted loop playsinline>
-                  <source src="https://adamdad.github.io/hash3D/static/videos/dreamgaussian/sofa_stage2.mp4" type="video/mp4">
-                </video>
-                <video style="max-height: 160px;max-width: 160px;" poster="" autoplay muted loop playsinline>
-                  <source src="https://adamdad.github.io/hash3D/static/videos/dreamgaussian/sofa_stage2_normal.mp4" type="video/mp4">
-                </video>
-              </td>
-              <td>
-                <video style="max-height: 160px;max-width: 160px;" poster="" autoplay muted loop playsinline>
-                  <source src="https://adamdad.github.io/hash3D/static/videos/dreamgaussian_hash/sofa_stage2.mp4" type="video/mp4">
-                </video>
-                <video style="max-height: 160px;max-width: 160px;" poster="" autoplay muted loop playsinline>
-                  <source src="https://adamdad.github.io/hash3D/static/videos/dreamgaussian_hash/sofa_stage2_normal.mp4" type="video/mp4">
-                </video>
-              </td>
-            </tr>
-            <tr>
-              <td><img style="max-height: 160px;max-width: 160px;" src="https://adamdad.github.io/hash3D/static/images/mario.png" alt="Sofa"></td>
-              <td>
-                <video style="max-height: 160px;max-width: 160px;" poster="" autoplay muted loop playsinline>
-                  <source src="https://adamdad.github.io/hash3D/static/videos/dreamgaussian/mario_stage2.mp4" type="video/mp4">
-                </video>
-                <video style="max-height: 160px;max-width: 160px;" poster="" autoplay muted loop playsinline>
-                  <source src="https://adamdad.github.io/hash3D/static/videos/dreamgaussian/mario_stage2_normal.mp4" type="video/mp4">
-                </video>
-              </td>
-              <td>
-                <video style="max-height: 160px;max-width: 160px;" poster="" autoplay muted loop playsinline>
-                  <source src="https://adamdad.github.io/hash3D/static/videos/dreamgaussian_hash/mario_stage2.mp4" type="video/mp4">
-                </video>
-                <video style="max-height: 160px;max-width: 160px;" poster="" autoplay muted loop playsinline>
-                  <source src="https://adamdad.github.io/hash3D/static/videos/dreamgaussian_hash/mario_stage2_normal.mp4" type="video/mp4">
-                </video>
-              </td>
-            </tr>
-          </table> -->
         </div>
       </div>
     </div>
