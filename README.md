@@ -9,7 +9,7 @@ This repository contains the offical implementation for our paper
 
 **Hash3D: Training-free Acceleration for 3D Generation**
 
-[[project page](https://adamdad.github.io/hash3D/)] [[paper](https://arxiv.org/abs/2404.06091)] [[code](https://github.com/Adamdad/hash3D)]
+🥯[[Project Page](https://adamdad.github.io/hash3D/)] 📝[[Paper](https://arxiv.org/abs/2404.06091)] </>[[code](https://github.com/Adamdad/hash3D)]
 
 ![pipeline](assets/pipeline.jpg)
 
