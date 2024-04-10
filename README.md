@@ -1,7 +1,7 @@
 <br>
 <div align="center">
 <img src="assets/logo.jpg" width="400px"></img>
-<h3>Training-free Acceleration <br> for 3D Generation 🏎️💨<h3>
+<h2>Training-free Acceleration <br> for 3D Generation 🏎️💨<h2>
 </div>
 
 
