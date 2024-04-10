@@ -4,8 +4,6 @@
 <h2>Training-free Acceleration <br> for 3D Generation 🏎️💨<h2>
 </div>
 
-
-
 ## Introduction
 This repository contains the offical implementation for our paper
 
