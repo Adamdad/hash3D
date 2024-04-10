@@ -6,6 +6,7 @@
 </div>
 
 
+
 ## Introduction
 This repository contains the offical implementation for our paper
 
@@ -23,7 +24,93 @@ Hash3D: Training-free Acceleration for 3D Generation
 - ⭐ Inplace Accerlation for 1.3X - 4X. 
 - ⭐ Training-Free.
 
+## Visualizations
 
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h3 class="title is-3">Image-to-3D Results</h3>
+        <div class="content has-text-justified">
+          <table>
+            <tr>
+              <th>Input Image</th>
+              <th>Zero-1-to-3</th>
+              <th>Hash3D + Zero-1-to-3<span style="color:red">(Speed X3.3)</span></th>
+            </tr>
+            <tr>
+              <td><img style="max-height: 160px;max-width: 160px;" src="https://adamdad.github.io/hash3D/static/images/baby_phoenix_on_ice.png"></td>
+              <td><video poster="" id="steve" autoplay controls muted loop playsinline height="10%">
+                <source style="max-height: 160px;max-width: 160px;" src="https://adamdad.github.io/hash3D/static/videos/phoenix_zero123.mp4"
+                        type="video/mp4">
+              </video></td>
+              <td><video poster="" id="steve" autoplay controls muted loop playsinline height="10%">
+                <source src="https://adamdad.github.io/hash3D/static/videos/phoenix_hash_zero123.mp4"
+                        type="video/mp4">
+              </video></td>
+            </tr>
+            <tr>
+              <td><img src="https://adamdad.github.io/hash3D/static/images/grootplant_rgba.png"></td>
+              <td><video poster="" id="steve" autoplay controls muted loop playsinline height="10%">
+                <source src="https://adamdad.github.io/hash3D/static/videos/grootplant_zero123.mp4"
+                        type="video/mp4">
+              </video></td>
+              <td><video poster="" id="steve" autoplay controls muted loop playsinline height="10%">
+                <source src="https://adamdad.github.io/hash3D/static/videos/grootplant_hash_zero123.mp4"
+                        type="video/mp4">
+              </video></td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <th>Input Image</th>
+              <th>DreamGaussian</th>
+              <th>Hash3D + DreamGaussian <span style="color:red">(Speed X4.0)</span></th>
+            </tr>
+            <tr>
+              <td><img style="max-height: 160px;max-width: 160px;" src="https://adamdad.github.io/hash3D/static/images/sofa.png" alt="Sofa"></td>
+              <td>
+                <video style="max-height: 160px;max-width: 160px;" poster="" autoplay muted loop playsinline>
+                  <source src="https://adamdad.github.io/hash3D/static/videos/dreamgaussian/sofa_stage2.mp4" type="video/mp4">
+                </video>
+                <video style="max-height: 160px;max-width: 160px;" poster="" autoplay muted loop playsinline>
+                  <source src="https://adamdad.github.io/hash3D/static/videos/dreamgaussian/sofa_stage2_normal.mp4" type="video/mp4">
+                </video>
+              </td>
+              <td>
+                <video style="max-height: 160px;max-width: 160px;" poster="" autoplay muted loop playsinline>
+                  <source src="https://adamdad.github.io/hash3D/static/videos/dreamgaussian_hash/sofa_stage2.mp4" type="video/mp4">
+                </video>
+                <video style="max-height: 160px;max-width: 160px;" poster="" autoplay muted loop playsinline>
+                  <source src="https://adamdad.github.io/hash3D/static/videos/dreamgaussian_hash/sofa_stage2_normal.mp4" type="video/mp4">
+                </video>
+              </td>
+            </tr>
+            <tr>
+              <td><img style="max-height: 160px;max-width: 160px;" src="https://adamdad.github.io/hash3D/static/images/mario.png" alt="Sofa"></td>
+              <td>
+                <video style="max-height: 160px;max-width: 160px;" poster="" autoplay muted loop playsinline>
+                  <source src="https://adamdad.github.io/hash3D/static/videos/dreamgaussian/mario_stage2.mp4" type="video/mp4">
+                </video>
+                <video style="max-height: 160px;max-width: 160px;" poster="" autoplay muted loop playsinline>
+                  <source src="https://adamdad.github.io/hash3D/static/videos/dreamgaussian/mario_stage2_normal.mp4" type="video/mp4">
+                </video>
+              </td>
+              <td>
+                <video style="max-height: 160px;max-width: 160px;" poster="" autoplay muted loop playsinline>
+                  <source src="https://adamdad.github.io/hash3D/static/videos/dreamgaussian_hash/mario_stage2.mp4" type="video/mp4">
+                </video>
+                <video style="max-height: 160px;max-width: 160px;" poster="" autoplay muted loop playsinline>
+                  <source src="https://adamdad.github.io/hash3D/static/videos/dreamgaussian_hash/mario_stage2_normal.mp4" type="video/mp4">
+                </video>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
 
 ## Project Structure
 The repository is organized into three main directories, each catering to a different repo that Hash3D can be applied on:
@@ -48,7 +135,7 @@ Refer to the `README` within each directory for detailed usage instructions tail
 For example, to run Zero123+SDS with hash3D
 ```shell
 cd threestudio-hash3d
-python launch.py --config configs/stable-zero123_hash3d.yaml --train --gpu 0 data.image_path=./load/images/dog1_rgba.png
+python launch.py --config configs/stable-zero123_hash3d.yaml --train --gpu 0 data.image_path=https://adamdad.github.io/hash3D/load/images/dog1_rgba.png
 ```
 
 ### Evaliation
