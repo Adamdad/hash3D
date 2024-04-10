@@ -24,7 +24,7 @@ Hash3D: Training-free Acceleration for 3D Generation
 - ⭐ Inplace Accerlation for 1.3X - 4X. 
 - ⭐ Training-Free.
 
-## Visualizations
+## Results Visualizations
 
 
 <section class="section">
@@ -64,6 +64,50 @@ https://github.com/Adamdad/hash3D/assets/26020510/a41ba688-40bf-4d95-95de-37b669
 https://github.com/Adamdad/hash3D/assets/26020510/86d9e46d-0554-4a87-9960-ce3a9f83bdd7
 
 </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h3 class="title is-3">Text-to-3D Results</h3>
+        <div class="content has-text-justified">
+          <table>
+            <tr>
+              <th>Prompt</th>
+              <th>Gaussian-Dreamer</th>
+              <th>Hash3D + Gaussian-Dreamer <br> <span class="speed-highlight">(Speed X1.5)</span></th>
+            </tr>
+            <tr>
+              <td style="text-align: center; vertical-align: middle; font-size:18px; font-family:Comic sans MS">A bear dressed as a lumberjack</td>
+              <td>
+                <video style="max-height: 250px; max-width: 250px;" poster="" autoplay muted loop playsinline>
+                  <source src="./static/videos/gaussiandreamer/a bear dressed as a lumberjack.mp4" type="video/mp4">
+                </video>
+              </td>
+              <td>
+                <video style="max-height: 250px; max-width: 250px;" poster="" autoplay muted loop playsinline>
+                  <source src="./static/videos/gaussiandreamer_hash3d/a bear dressed as a lumberjack.mp4" type="video/mp4">
+                </video>
+              </td>
+            </tr>
+            <tr>
+              <td style="text-align: center; vertical-align: middle; font-size:18px; font-family:Comic sans MS">A train engine made out of clay</td>
+              <td>
+                <video style="max-height: 250px; max-width: 250px;" poster="" autoplay muted loop playsinline>
+                  <source src="./static/videos/gaussiandreamer/a train engine made out of clay.mp4" type="video/mp4">
+                </video>
+              </td>
+              <td>
+                <video  style="max-height: 250px; max-width: 250px;" poster="" autoplay muted loop playsinline>
+                  <source src="./static/videos/gaussiandreamer_hash3d/a train engine made out of clay.mp4" type="video/mp4">
+                </video>
+              </td>
             </tr>
           </table>
         </div>
