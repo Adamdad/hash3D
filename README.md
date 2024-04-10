@@ -3,6 +3,10 @@
 <img src="assets/logo.jpg" width="400px"></img>
 <h2>Training-free Acceleration <br> for 3D Generation 🏎️💨<h2>
 </div>
+<p align="center">
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-4caf50.svg" alt="License"></a>
+  <a href="https://arxiv.org/abs/2404.06091" target="_blank"><img src="https://img.shields.io/badge/arXiv-2404.06091-b31b1b.svg" alt="arXiv">  <a href="https://adamdad.github.io/hash3D/" target="_blank"><img src="https://img.shields.io/badge/Project-Website-orange" alt="arXiv"></a>
+</p>
 
 ## Introduction
 This repository contains the offical implementation for our paper
