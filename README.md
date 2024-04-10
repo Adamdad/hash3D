@@ -2,7 +2,6 @@
 <br>
 <div align="center">
 <img src="assets/logo.jpg" width="400px"></img>
-
 <h3>Training-free Acceleration <br> for 3D Generation 🏎️💨<h3>
 </div>
 
@@ -12,7 +11,7 @@ This repository contains the offical implementation for our paper
 
 Hash3D: Training-free Acceleration for 3D Generation
 
-[[project page](https://adamdad.github.io/hash3D/)] [[paper]()] [[code](https://github.com/Adamdad/hash3D)]
+[[project page](https://adamdad.github.io/hash3D/)] [[paper](https://arxiv.org/abs/2404.06091)] [[code](https://github.com/Adamdad/hash3D)]
 
 ![pipeline](assets/pipeline.jpg)
 
