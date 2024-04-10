@@ -56,7 +56,11 @@ https://github.com/Adamdad/hash3D/assets/26020510/c02701f1-fd92-4601-8569-18c7c1
 </td>
             </tr>
             <tr>
-              <td><img src="assets/grootplant_rgba.png"></img></td>
+              <td>
+              
+  ![baby_phoenix_on_ice (1)](https://github.com/Adamdad/hash3D/assets/26020510/0148a4c7-bd07-4121-898b-c444829bc5ef) 
+
+              </td>
               <td>
 
 https://github.com/Adamdad/hash3D/assets/26020510/a41ba688-40bf-4d95-95de-37b669a90887
