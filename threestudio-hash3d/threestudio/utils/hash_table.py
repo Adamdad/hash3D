@@ -2,6 +2,9 @@ import torch
 from collections import deque
 import torch.nn.functional as F
 
+GridBasedHashTable_Key = None
+
+
 class GridBasedHashTable:
     def __init__(self, delta_c, delta_t, N, max_queue_length, hash_table_size):
         """
