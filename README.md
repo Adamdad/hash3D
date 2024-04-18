@@ -11,7 +11,7 @@
 
 
 ## Introduction
-This repository contains the offical implementation for our paper
+This repository contains the official implementation for our paper
 
 **Hash3D: Training-free Acceleration for 3D Generation**
 
