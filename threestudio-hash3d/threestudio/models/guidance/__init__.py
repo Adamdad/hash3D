@@ -8,4 +8,6 @@ from . import (
     stable_zero123_guidance,
     zero123_guidance,
     zero123_unified_guidance,
+    zero123_unified_guidance_cache,
+    stable_diffusion_guidance_cache
 )
