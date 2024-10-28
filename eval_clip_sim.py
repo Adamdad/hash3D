@@ -1,4 +1,4 @@
-# eval the clip-similarity for an input image and a geneated images
+# eval the clip-similarity for an input image and a generated images
 import os
 import cv2
 import torch
